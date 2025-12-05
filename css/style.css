@@ -212,19 +212,51 @@ footer{
 	padding: 40px 0;
 }
 
+.page{
+	text-align: center;
+}
+.page .subtitulo{
+	color: #fff;
+}
+
+#hero.page{
+	padding: 12% 0;
+}
+#hero.page h1{
+	margin-bottom: 20px;
+}
+
+
+#hero.bg-about{
+	background-image: url("../img/hero-about.jpg");
+}
+#hero.bg-contact{
+	background-image: url("../img/hero-contact.jpeg");
+}
 
 
 
+#servicios h3{
+	font-size: 20px;
+	font-weight: 300;
+}
+#servicios i{
+	color: var(--color-primary);
+	font-size: 24px;
+}
 
+.bg-transparent{
+	background-color: transparent;
+}
 
+#team .caja-testimonio{
+	background-color: transparent;
+}
 
-
-
-
-
-
-
-
+.owl-carousel img{
+	width: inherit !important;
+	display: inline !important;
+}
 
 
 
